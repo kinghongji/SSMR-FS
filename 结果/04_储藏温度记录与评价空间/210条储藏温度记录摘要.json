@@ -1,0 +1,42 @@
+{
+  "evaluation_role": "唯一评价参考记录集；不参与任何方法的生成、参数设置或选择",
+  "ssmr_internal_reference": "三类候选路径合并去重后的完整候选空间",
+  "storage_temperature_records": {
+    "source_file": "210条实验室冰箱储藏温度记录.xlsx",
+    "sheet_name": "实际每日温度---菌落",
+    "record_label": "210条储藏温度记录",
+    "evaluation_role": "唯一评价参考记录集；不参与候选生成、选择PCA或序贯能量选择",
+    "sample_id_rule": "样本名称仅为唯一标识，不分组、不比较、不解释",
+    "path_count": 210,
+    "temperature_point_count": 1259,
+    "path_length_counts": {
+      "1": 1,
+      "2": 4,
+      "3": 30,
+      "4": 34,
+      "5": 30,
+      "6": 26,
+      "7": 24,
+      "8": 21,
+      "9": 18,
+      "10": 22
+    },
+    "observed_min_temperature": -14.0,
+    "observed_max_temperature": 22.0,
+    "nominal_design_min_temperature": -18,
+    "nominal_design_max_temperature": 18,
+    "in_nominal_range_path_count": 188,
+    "outside_nominal_range_path_count": 22,
+    "outside_nominal_range_point_count": 30,
+    "outside_nominal_range_point_percentage": 2.3828435266084194,
+    "below_nominal_minimum_path_count": 0,
+    "above_nominal_maximum_path_count": 22,
+    "key_group_counts": {
+      "0-4℃": 163,
+      "4-8℃": 128,
+      ">8℃": 146,
+      ">=15℃": 68,
+      "跨0℃": 112
+    }
+  }
+}

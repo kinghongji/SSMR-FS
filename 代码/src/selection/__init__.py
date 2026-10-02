@@ -1,0 +1,2 @@
+"""Sequential selection modules."""
+
