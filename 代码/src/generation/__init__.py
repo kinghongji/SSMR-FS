@@ -1,2 +1,0 @@
-"""Candidate path generation modules."""
-
