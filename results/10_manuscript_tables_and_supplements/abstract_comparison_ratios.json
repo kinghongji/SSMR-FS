@@ -1,0 +1,26 @@
+[
+  {
+    "baseline": "SRS",
+    "PCE_reduction_percent": 22.5541024832753,
+    "KCE_reduction_percent": 19.337711406688232,
+    "PS_ratio": 3.1452459180176953
+  },
+  {
+    "baseline": "Sobol",
+    "PCE_reduction_percent": 20.90178518819012,
+    "KCE_reduction_percent": 16.4704491398776,
+    "PS_ratio": 3.287345331356537
+  },
+  {
+    "baseline": "OA-LHS",
+    "PCE_reduction_percent": 29.753730809441915,
+    "KCE_reduction_percent": 22.248452793832517,
+    "PS_ratio": 3.3321308408567085
+  },
+  {
+    "baseline": "MaxPro",
+    "PCE_reduction_percent": 23.747074808162665,
+    "KCE_reduction_percent": 20.717092769748522,
+    "PS_ratio": 3.287345331356539
+  }
+]

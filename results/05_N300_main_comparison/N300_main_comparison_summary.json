@@ -1,0 +1,302 @@
+{
+  "method_count": 5,
+  "baseline_count": 4,
+  "metrics": [
+    {
+      "method": "SRS",
+      "PCE": 1.8366786224700749,
+      "KCE": 1.9205461125747252,
+      "PS": 0.24002636742691166,
+      "LFV": -0.3438303102978362
+    },
+    {
+      "method": "Sobol",
+      "PCE": 1.7983114373112081,
+      "KCE": 1.8546208281268677,
+      "PS": 0.22965094210366374,
+      "LFV": -0.3204753285641577
+    },
+    {
+      "method": "OA-LHS",
+      "PCE": 2.024922120505948,
+      "KCE": 1.992444528190394,
+      "PS": 0.22656431827629248,
+      "LFV": -0.106930583655305
+    },
+    {
+      "method": "MaxPro",
+      "PCE": 1.8654133465584513,
+      "KCE": 1.9539601939591253,
+      "PS": 0.22965094210366363,
+      "LFV": -0.3065646383774834
+    },
+    {
+      "method": "SSMR-FS",
+      "PCE": 1.4224322436697652,
+      "KCE": 1.5491564478926552,
+      "PS": 0.7549419523661094,
+      "LFV": 0.2829537755323774
+    }
+  ],
+  "ssmr_directional_comparison": [
+    {
+      "metric": "Path coverage error (PCE)",
+      "direction": "Lower is better",
+      "baseline": "SRS",
+      "ssmr_value": 1.4224322436697652,
+      "baseline_value": 1.8366786224700749,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Path coverage error (PCE)",
+      "direction": "Lower is better",
+      "baseline": "Sobol",
+      "ssmr_value": 1.4224322436697652,
+      "baseline_value": 1.7983114373112081,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Path coverage error (PCE)",
+      "direction": "Lower is better",
+      "baseline": "OA-LHS",
+      "ssmr_value": 1.4224322436697652,
+      "baseline_value": 2.024922120505948,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Path coverage error (PCE)",
+      "direction": "Lower is better",
+      "baseline": "MaxPro",
+      "ssmr_value": 1.4224322436697652,
+      "baseline_value": 1.8654133465584513,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Key-condition coverage error (KCE)",
+      "direction": "Lower is better",
+      "baseline": "SRS",
+      "ssmr_value": 1.5491564478926552,
+      "baseline_value": 1.9205461125747252,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Key-condition coverage error (KCE)",
+      "direction": "Lower is better",
+      "baseline": "Sobol",
+      "ssmr_value": 1.5491564478926552,
+      "baseline_value": 1.8546208281268677,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Key-condition coverage error (KCE)",
+      "direction": "Lower is better",
+      "baseline": "OA-LHS",
+      "ssmr_value": 1.5491564478926552,
+      "baseline_value": 1.992444528190394,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Key-condition coverage error (KCE)",
+      "direction": "Lower is better",
+      "baseline": "MaxPro",
+      "ssmr_value": 1.5491564478926552,
+      "baseline_value": 1.9539601939591253,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Path separation (PS)",
+      "direction": "Higher is better",
+      "baseline": "SRS",
+      "ssmr_value": 0.7549419523661094,
+      "baseline_value": 0.24002636742691166,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Path separation (PS)",
+      "direction": "Higher is better",
+      "baseline": "Sobol",
+      "ssmr_value": 0.7549419523661094,
+      "baseline_value": 0.22965094210366374,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Path separation (PS)",
+      "direction": "Higher is better",
+      "baseline": "OA-LHS",
+      "ssmr_value": 0.7549419523661094,
+      "baseline_value": 0.22656431827629248,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Path separation (PS)",
+      "direction": "Higher is better",
+      "baseline": "MaxPro",
+      "ssmr_value": 0.7549419523661094,
+      "baseline_value": 0.22965094210366363,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Log feature volume (LFV)",
+      "direction": "Higher is better",
+      "baseline": "SRS",
+      "ssmr_value": 0.2829537755323774,
+      "baseline_value": -0.3438303102978362,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Log feature volume (LFV)",
+      "direction": "Higher is better",
+      "baseline": "Sobol",
+      "ssmr_value": 0.2829537755323774,
+      "baseline_value": -0.3204753285641577,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Log feature volume (LFV)",
+      "direction": "Higher is better",
+      "baseline": "OA-LHS",
+      "ssmr_value": 0.2829537755323774,
+      "baseline_value": -0.106930583655305,
+      "ssmr_better": true
+    },
+    {
+      "metric": "Log feature volume (LFV)",
+      "direction": "Higher is better",
+      "baseline": "MaxPro",
+      "ssmr_value": 0.2829537755323774,
+      "baseline_value": -0.3065646383774834,
+      "ssmr_better": true
+    }
+  ],
+  "baseline_diagnostics": [
+    {
+      "method": "SRS",
+      "family": "Random sampling",
+      "requested_output_count": 300,
+      "actual_output_count": 300,
+      "discrete_mapping_supplement_count": 0,
+      "uses_storage_temperature_records": false,
+      "implementation_note": "",
+      "master_seed": 42,
+      "scope": "main",
+      "repeat": 0,
+      "stream_sample_size": 0,
+      "stream_seed": 1246915563
+    },
+    {
+      "method": "Sobol",
+      "family": "Low-discrepancy sequence",
+      "requested_output_count": 300,
+      "actual_output_count": 300,
+      "discrete_mapping_supplement_count": 5,
+      "uses_storage_temperature_records": false,
+      "implementation_note": "",
+      "sampler_seed": 545949342,
+      "complete_point_count": 512,
+      "master_seed": 42,
+      "scope": "main",
+      "repeat": 0,
+      "stream_sample_size": 0,
+      "stream_seed": 136174715
+    },
+    {
+      "method": "OA-LHS",
+      "family": "Orthogonal-array-based Latin hypercube",
+      "requested_output_count": 300,
+      "actual_output_count": 300,
+      "discrete_mapping_supplement_count": 8,
+      "uses_storage_temperature_records": false,
+      "implementation_note": "A randomized subset of N=300 points was retained from a complete strength-two OA-LHS of 361 points; the subset is not claimed to retain strength-two orthogonality.",
+      "master_seed": 42,
+      "scope": "main",
+      "repeat": 0,
+      "stream_sample_size": 0,
+      "stream_seed": 139003893
+    },
+    {
+      "method": "MaxPro",
+      "family": "Maximum projection design",
+      "requested_output_count": 300,
+      "actual_output_count": 300,
+      "discrete_mapping_supplement_count": 8,
+      "uses_storage_temperature_records": false,
+      "implementation_note": "",
+      "sampler_seed": 1254945149,
+      "exchange_attempts": 1200,
+      "exchange_accepted": 363,
+      "exchange_definition": "attempted swaps",
+      "difference_floor": 1e-14,
+      "exponent_cap": 700.0,
+      "early_stopping": false,
+      "master_seed": 42,
+      "scope": "main",
+      "repeat": 0,
+      "stream_sample_size": 0,
+      "stream_seed": 1840695417
+    }
+  ],
+  "reporting_rule": "Results are reported for the four configured comparators.",
+  "ssmr_source_counts": {
+    "scenario": 104,
+    "stratified": 105,
+    "risk": 91
+  },
+  "ssmr_selection": {
+    "selection_objective": "Candidate-constrained sequential energy distance",
+    "mathematical_target": "Sequential minimization of energy distance to the merged unique candidate set",
+    "candidate_score": "Mean distance to the candidate set minus the distance sum to previously selected paths divided by the current selected-set size",
+    "first_path_rule": "Select the candidate with the smallest mean distance to the complete candidate set.",
+    "subsequent_path_rule": "At each subsequent step, select the remaining candidate that minimizes energy distance after addition.",
+    "tie_breaking_rule": "Resolve equal scores by the smaller original candidate index.",
+    "reference_distribution": "Complete merged and deduplicated candidate set",
+    "uses_metric_feedback": false,
+    "uses_storage_temperature_records": false,
+    "candidate_path_count": 5201,
+    "selected_count": 300,
+    "final_energy_distance": 0.0024852165673854287,
+    "mean_sequential_energy_score": 0.12256820196157224,
+    "selection_pca_fitted_on": "Complete merged and deduplicated candidate set"
+  },
+  "selection_pca_components": 10,
+  "selection_pca_explained_variance": 0.9548538038489264,
+  "evaluation_pca_components": 9,
+  "evaluation_pca_explained_variance": 0.9515342345980919,
+  "storage_temperature_records": {
+    "source_file": "measured_storage_temperature_records.xlsx",
+    "sheet_name": "Measured daily temperatures",
+    "record_label": "210 measured temperature records",
+    "evaluation_role": "Measured records are reserved for evaluation and are not used in candidate generation, selection-space PCA, or sequential selection.",
+    "sample_id_rule": "Sample names are used only as unique identifiers.",
+    "path_count": 210,
+    "temperature_point_count": 1259,
+    "path_length_counts": {
+      "1": 1,
+      "2": 4,
+      "3": 30,
+      "4": 34,
+      "5": 30,
+      "6": 26,
+      "7": 24,
+      "8": 21,
+      "9": 18,
+      "10": 22
+    },
+    "observed_min_temperature": -14.0,
+    "observed_max_temperature": 22.0,
+    "nominal_design_min_temperature": -18,
+    "nominal_design_max_temperature": 18,
+    "in_nominal_range_path_count": 188,
+    "outside_nominal_range_path_count": 22,
+    "outside_nominal_range_point_count": 30,
+    "outside_nominal_range_point_percentage": 2.3828435266084194,
+    "below_nominal_minimum_path_count": 0,
+    "above_nominal_maximum_path_count": 22,
+    "key_group_counts": {
+      "0–4 °C": 163,
+      "4 < T ≤ 8 °C": 128,
+      ">8 °C": 146,
+      "≥15 °C": 68,
+      "0 °C crossings": 112
+    }
+  }
+}

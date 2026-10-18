@@ -1,0 +1,131 @@
+{
+  "random_seed": 42,
+  "main_sample_size": 300,
+  "sample_size_validation": [
+    200,
+    500,
+    800,
+    1000,
+    1300,
+    1500
+  ],
+  "repeated_times": 30,
+  "figure_dpi": 600,
+  "temperature": {
+    "temp_min": -18,
+    "temp_max": 18,
+    "min_days": 1,
+    "max_days": 10
+  },
+  "baseline": {
+    "input_dim": 11,
+    "sobol_scramble": true,
+    "maxpro_exchange_factor": 4
+  },
+  "source_pool": {
+    "scenario_count_per_type": 180,
+    "stratified_count_per_stratum": 10,
+    "risk_pool_size": 1800,
+    "generation_attempt_limit": 20000,
+    "time_layers": [
+      [
+        "1-3 d",
+        1,
+        3
+      ],
+      [
+        "4-6 d",
+        4,
+        6
+      ],
+      [
+        "7-10 d",
+        7,
+        10
+      ]
+    ],
+    "temperature_layers": [
+      [
+        "Freezing",
+        -18,
+        -1
+      ],
+      [
+        "Chilling",
+        0,
+        4
+      ],
+      [
+        "Transition",
+        5,
+        8
+      ],
+      [
+        "Elevated temperature",
+        9,
+        14
+      ],
+      [
+        "High-temperature exposure",
+        15,
+        18
+      ]
+    ],
+    "path_type_layers": [
+      "Stable",
+      "Warming",
+      "Cooling",
+      "Oscillating"
+    ],
+    "amplitude_layers": [
+      [
+        "Low (a = 1 °C)",
+        1
+      ],
+      [
+        "Medium (a = 3 °C)",
+        3
+      ],
+      [
+        "High (a = 6 °C)",
+        6
+      ]
+    ],
+    "risk_scenarios": [
+      "Chilling boundary",
+      "4 < T ≤ 8 °C exposure",
+      "Above 8 °C exposure",
+      "At or above 15 °C exposure",
+      "Daily 0 °C boundary alternation"
+    ]
+  },
+  "selection": {
+    "objective": "Candidate-constrained sequential energy distance",
+    "distance_block_size": 256
+  },
+  "storage_temperature_records": {
+    "file_path": "measured_storage_temperature_records.xlsx",
+    "sheet_name": "Measured daily temperatures",
+    "id_column": "Sample ID",
+    "day_columns": [
+      "Day 1 measured temperature (°C)",
+      "Day 2 measured temperature (°C)",
+      "Day 3 measured temperature (°C)",
+      "Day 4 measured temperature (°C)",
+      "Day 5 measured temperature (°C)",
+      "Day 6 measured temperature (°C)",
+      "Day 7 measured temperature (°C)",
+      "Day 8 measured temperature (°C)",
+      "Day 9 measured temperature (°C)",
+      "Day 10 measured temperature (°C)"
+    ]
+  },
+  "features": {
+    "pca_explained_variance": 0.95,
+    "logdet_regularization": 1e-06
+  },
+  "result_root": "../results",
+  "excel_main_name": "N300_main_comparison.xlsx",
+  "excel_repeat_name": "N300_30_repeated_runs.xlsx",
+  "excel_sample_size_name": "sample_size_comparison.xlsx"
+}
