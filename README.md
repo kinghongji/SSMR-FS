@@ -23,7 +23,7 @@ The script writes results to the sibling `results` directory. It produces the ma
 - `07_sample_size_comparison`: profiles, features, selection details, and metrics by design size.
 - `08_manuscript_figures`: Figures 2–8 as 600 dpi PNG and vector PDF. Figure 1 is prepared separately for the manuscript.
 - `09_run_logs`: run logs.
-- `10_manuscript_tables_and_supplements`: Table 5–6 export and single-worksheet Supplementary Tables S1–S16.
+- `10_manuscript_tables_and_supplements`: Table 6–7 export and single-worksheet Supplementary Tables S1–S16.
 
 The supplementary tables are paired by component: S1–S2 for typical storage scenarios, S3–S4 for stratified exploration, S5–S6 for risk exposure, S7 for the 300 SSMR-FS profiles, S8 for the measured records, and S9–S16 for the four comparators' profiles and rules.
 
