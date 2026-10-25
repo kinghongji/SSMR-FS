@@ -1,0 +1,12 @@
+{
+  "scenario_pool_raw": 1800,
+  "stratified_pool_raw": 1800,
+  "risk_pool_raw": 1800,
+  "merged_unique_candidate_pool": 5201,
+  "risk_generation_rule": "The five risk-exposure categories have equal design quotas; these do not represent occurrence probabilities.",
+  "source_counts_in_selected": {
+    "scenario": 104,
+    "stratified": 105,
+    "risk": 91
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "method_count": 5,
+  "candidate_regeneration_audit": [
+    {
+      "repeat": 1,
+      "stream_seed": 845369292,
+      "candidate_path_count": 5198,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9552021975458745
+    },
+    {
+      "repeat": 2,
+      "stream_seed": 1572839048,
+      "candidate_path_count": 5190,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9542479933459865
+    },
+    {
+      "repeat": 3,
+      "stream_seed": 2938890778,
+      "candidate_path_count": 5218,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9532493502945611
+    },
+    {
+      "repeat": 4,
+      "stream_seed": 52123697,
+      "candidate_path_count": 5190,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9554355757595115
+    },
+    {
+      "repeat": 5,
+      "stream_seed": 1374700341,
+      "candidate_path_count": 5184,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9551816065579651
+    },
+    {
+      "repeat": 6,
+      "stream_seed": 2164972301,
+      "candidate_path_count": 5202,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9550069724840655
+    },
+    {
+      "repeat": 7,
+      "stream_seed": 3341368524,
+      "candidate_path_count": 5166,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.954754785896442
+    },
+    {
+      "repeat": 8,
+      "stream_seed": 3948367004,
+      "candidate_path_count": 5180,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9546171511923961
+    },
+    {
+      "repeat": 9,
+      "stream_seed": 3879498090,
+      "candidate_path_count": 5205,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9549871649702582
+    },
+    {
+      "repeat": 10,
+      "stream_seed": 614222578,
+      "candidate_path_count": 5202,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9541851149455441
+    },
+    {
+      "repeat": 11,
+      "stream_seed": 2405062730,
+      "candidate_path_count": 5184,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9544842110735595
+    },
+    {
+      "repeat": 12,
+      "stream_seed": 2218822382,
+      "candidate_path_count": 5203,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9556161111040913
+    },
+    {
+      "repeat": 13,
+      "stream_seed": 2805881876,
+      "candidate_path_count": 5193,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9549891122044065
+    },
+    {
+      "repeat": 14,
+      "stream_seed": 1392149538,
+      "candidate_path_count": 5172,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9543542235100106
+    },
+    {
+      "repeat": 15,
+      "stream_seed": 3572931876,
+      "candidate_path_count": 5205,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9552502812455183
+    },
+    {
+      "repeat": 16,
+      "stream_seed": 763375323,
+      "candidate_path_count": 5189,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9545450365645675
+    },
+    {
+      "repeat": 17,
+      "stream_seed": 2919313170,
+      "candidate_path_count": 5172,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9548405145962194
+    },
+    {
+      "repeat": 18,
+      "stream_seed": 3439463518,
+      "candidate_path_count": 5194,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9550099105914498
+    },
+    {
+      "repeat": 19,
+      "stream_seed": 2867151824,
+      "candidate_path_count": 5190,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9551724938113278
+    },
+    {
+      "repeat": 20,
+      "stream_seed": 955293499,
+      "candidate_path_count": 5188,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9554364190858377
+    },
+    {
+      "repeat": 21,
+      "stream_seed": 2686275367,
+      "candidate_path_count": 5182,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9549649737969167
+    },
+    {
+      "repeat": 22,
+      "stream_seed": 2689291186,
+      "candidate_path_count": 5174,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9547188583602044
+    },
+    {
+      "repeat": 23,
+      "stream_seed": 1520433735,
+      "candidate_path_count": 5196,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9545325251167363
+    },
+    {
+      "repeat": 24,
+      "stream_seed": 3552239467,
+      "candidate_path_count": 5196,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9540200049621378
+    },
+    {
+      "repeat": 25,
+      "stream_seed": 3130092299,
+      "candidate_path_count": 5202,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9552656730613427
+    },
+    {
+      "repeat": 26,
+      "stream_seed": 3129527085,
+      "candidate_path_count": 5209,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9550635558393129
+    },
+    {
+      "repeat": 27,
+      "stream_seed": 2915822795,
+      "candidate_path_count": 5198,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9562775506739439
+    },
+    {
+      "repeat": 28,
+      "stream_seed": 3224104962,
+      "candidate_path_count": 5224,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9553454929269003
+    },
+    {
+      "repeat": 29,
+      "stream_seed": 862835859,
+      "candidate_path_count": 5191,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.954141048896169
+    },
+    {
+      "repeat": 30,
+      "stream_seed": 2275975667,
+      "candidate_path_count": 5202,
+      "selection_pca_components": 10,
+      "selection_pca_explained_variance": 0.9543531043331276
+    }
+  ],
+  "mean_and_standard_deviation": [
+    {
+      "method": "SRS",
+      "metric": "Path coverage error (PCE)",
+      "repeat_count": 30,
+      "mean": 1.8407743878332334,
+      "standard_deviation": 0.04136551663238489,
+      "mean_plus_minus_sd": "1.840774 ± 0.041366"
+    },
+    {
+      "method": "SRS",
+      "metric": "Key-condition coverage error (KCE)",
+      "repeat_count": 30,
+      "mean": 1.9030970294245664,
+      "standard_deviation": 0.04588314321235373,
+      "mean_plus_minus_sd": "1.903097 ± 0.045883"
+    },
+    {
+      "method": "SRS",
+      "metric": "Path separation (PS)",
+      "repeat_count": 30,
+      "mean": 0.27090817662807365,
+      "standard_deviation": 0.059494460476035405,
+      "mean_plus_minus_sd": "0.270908 ± 0.059494"
+    },
+    {
+      "method": "SRS",
+      "metric": "Log feature volume (LFV)",
+      "repeat_count": 30,
+      "mean": -0.29285837995576,
+      "standard_deviation": 0.041497526299581526,
+      "mean_plus_minus_sd": "-0.292858 ± 0.041498"
+    },
+    {
+      "method": "Sobol",
+      "metric": "Path coverage error (PCE)",
+      "repeat_count": 30,
+      "mean": 1.8124339684065067,
+      "standard_deviation": 0.0363916235031,
+      "mean_plus_minus_sd": "1.812434 ± 0.036392"
+    },
+    {
+      "method": "Sobol",
+      "metric": "Key-condition coverage error (KCE)",
+      "repeat_count": 30,
+      "mean": 1.8797970203995995,
+      "standard_deviation": 0.040643497973020665,
+      "mean_plus_minus_sd": "1.879797 ± 0.040643"
+    },
+    {
+      "method": "Sobol",
+      "metric": "Path separation (PS)",
+      "repeat_count": 30,
+      "mean": 0.24161135917232845,
+      "standard_deviation": 0.04696522759201458,
+      "mean_plus_minus_sd": "0.241611 ± 0.046965"
+    },
+    {
+      "method": "Sobol",
+      "metric": "Log feature volume (LFV)",
+      "repeat_count": 30,
+      "mean": -0.3157676103005069,
+      "standard_deviation": 0.01996712120057195,
+      "mean_plus_minus_sd": "-0.315768 ± 0.019967"
+    },
+    {
+      "method": "OA-LHS",
+      "metric": "Path coverage error (PCE)",
+      "repeat_count": 30,
+      "mean": 2.0300999888553277,
+      "standard_deviation": 0.025757936191710462,
+      "mean_plus_minus_sd": "2.030100 ± 0.025758"
+    },
+    {
+      "method": "OA-LHS",
+      "metric": "Key-condition coverage error (KCE)",
+      "repeat_count": 30,
+      "mean": 2.007549547824401,
+      "standard_deviation": 0.029591503004600606,
+      "mean_plus_minus_sd": "2.007550 ± 0.029592"
+    },
+    {
+      "method": "OA-LHS",
+      "metric": "Path separation (PS)",
+      "repeat_count": 30,
+      "mean": 0.22896976010144077,
+      "standard_deviation": 0.002414996643878496,
+      "mean_plus_minus_sd": "0.228970 ± 0.002415"
+    },
+    {
+      "method": "OA-LHS",
+      "metric": "Log feature volume (LFV)",
+      "repeat_count": 30,
+      "mean": -0.11156399924043657,
+      "standard_deviation": 0.040841898129586544,
+      "mean_plus_minus_sd": "-0.111564 ± 0.040842"
+    },
+    {
+      "method": "MaxPro",
+      "metric": "Path coverage error (PCE)",
+      "repeat_count": 30,
+      "mean": 1.8251785645794805,
+      "standard_deviation": 0.037035623176913855,
+      "mean_plus_minus_sd": "1.825179 ± 0.037036"
+    },
+    {
+      "method": "MaxPro",
+      "metric": "Key-condition coverage error (KCE)",
+      "repeat_count": 30,
+      "mean": 1.892499273291847,
+      "standard_deviation": 0.04077120377493202,
+      "mean_plus_minus_sd": "1.892499 ± 0.040771"
+    },
+    {
+      "method": "MaxPro",
+      "metric": "Path separation (PS)",
+      "repeat_count": 30,
+      "mean": 0.24595325357716966,
+      "standard_deviation": 0.034317501935383785,
+      "mean_plus_minus_sd": "0.245953 ± 0.034318"
+    },
+    {
+      "method": "MaxPro",
+      "metric": "Log feature volume (LFV)",
+      "repeat_count": 30,
+      "mean": -0.32756880985838294,
+      "standard_deviation": 0.02211658979643638,
+      "mean_plus_minus_sd": "-0.327569 ± 0.022117"
+    },
+    {
+      "method": "SSMR-FS",
+      "metric": "Path coverage error (PCE)",
+      "repeat_count": 30,
+      "mean": 1.4105158711805534,
+      "standard_deviation": 0.0228439770621738,
+      "mean_plus_minus_sd": "1.410516 ± 0.022844"
+    },
+    {
+      "method": "SSMR-FS",
+      "metric": "Key-condition coverage error (KCE)",
+      "repeat_count": 30,
+      "mean": 1.5345997141004846,
+      "standard_deviation": 0.027950973380823016,
+      "mean_plus_minus_sd": "1.534600 ± 0.027951"
+    },
+    {
+      "method": "SSMR-FS",
+      "metric": "Path separation (PS)",
+      "repeat_count": 30,
+      "mean": 0.7537491165292416,
+      "standard_deviation": 0.03975812350164893,
+      "mean_plus_minus_sd": "0.753749 ± 0.039758"
+    },
+    {
+      "method": "SSMR-FS",
+      "metric": "Log feature volume (LFV)",
+      "repeat_count": 30,
+      "mean": 0.2909088482856203,
+      "standard_deviation": 0.008812764190259231,
+      "mean_plus_minus_sd": "0.290909 ± 0.008813"
+    }
+  ],
+  "ssmr_simultaneous_best": {
+    "repeat_count": 30,
+    "simultaneous_best_count": 30,
+    "simultaneous_best_proportion": 1.0,
+    "strict_rule": "All four SSMR-FS metrics are strictly better than the corresponding metrics of all four comparators in the same run."
+  },
+  "statistical_evidence": "Means and sample standard deviations across runs; counts and proportions of runs where SSMR-FS is strictly best on all four metrics."
+}
